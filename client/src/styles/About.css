@@ -1,0 +1,35 @@
+.bioImg {
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+}
+
+span {
+  display: flex;
+  gap: 1rem;
+}
+
+span > i {
+  font-size: 3rem;
+}
+
+.email {
+  display: inline;
+}
+
+.email, i:hover {
+  text-shadow: 1px 1px 10px rgb(248, 49, 212), 1px 1px 10px rgb(248, 49, 212);
+}
+
+@media screen and (min-width: 800px){
+  .about {
+    width: 40%;
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about {
+    width: 30%;
+  }
+}
